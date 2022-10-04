@@ -7,7 +7,7 @@ const Education = () => {
     <section className={style.education_section}>
       <h4 className={style.title}>Education</h4>
 
-      <div className={}></div>
+      <div></div>
     </section>
   );
 };
