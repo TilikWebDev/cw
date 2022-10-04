@@ -1,0 +1,45 @@
+.social_media_section {
+  .container {
+    width: 100%;
+    max-width: 1142px;
+    padding: 88px 15px 0 15px;
+    margin: 0 auto;
+    height: 100%;
+
+    .links {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .title {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 8%;
+        text-transform: uppercase;
+        color: black;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .link {
+        color: black;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.26px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+    }
+
+    hr {
+      border: 0;
+      border-bottom: 1px solid #eeeeee;
+      margin: 96px 0;
+    }
+  }
+}

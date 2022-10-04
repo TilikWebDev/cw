@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+#root {
+  min-height: 100%;
+  display: flex;
+}
+
+body,
+.wrapper {
+  flex: 1;
+  margin: 0;
+}
