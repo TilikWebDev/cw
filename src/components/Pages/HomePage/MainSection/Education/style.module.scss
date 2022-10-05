@@ -12,4 +12,38 @@
     font-weight: 700;
     margin: 0;
   }
+
+  .education_section_child {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    * {
+      font-family: "Inter", sans-serif;
+    }
+
+    .child_title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+      margin: 0;
+      letter-spacing: -0.26px;
+    }
+
+    .child_description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #525252;
+      letter-spacing: -0.09px;
+    }
+
+    .child_datetime {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.18px;
+      color: #6140e5;
+    }
+  }
 }

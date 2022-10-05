@@ -7,9 +7,12 @@ const TopSection = () => {
       <div className={style.container}>
         <div className={style.main_info}>
           <div className={style.main_info__rotate}>
-            <h2 className={style.name}>JOHN</h2>
-            <h1 className={style.surname}>SMITHSON</h1>
-            <p className={style.specific}>DESIGNER</p>
+            <h2 className={style.name}>For</h2>
+            {/* JOHN */}
+            <h1 className={style.surname}>Mariya</h1>
+            {/* SMITHSON */}
+            <p className={style.specific}>with love</p>
+            {/* DESIGNER */}
           </div>
         </div>
 

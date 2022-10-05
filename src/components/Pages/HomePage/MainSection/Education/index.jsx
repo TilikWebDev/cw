@@ -7,7 +7,17 @@ const Education = () => {
     <section className={style.education_section}>
       <h4 className={style.title}>Education</h4>
 
-      <div></div>
+      <div className={style.education_section_child}>
+        <p className={style.child_title}>Degree title here</p>
+        <span className={style.child_description}>Description</span>
+        <span className={style.child_datetime}>2020-2022</span>
+      </div>
+
+      <div className={style.education_section_child}>
+        <p className={style.child_title}>Degree title here</p>
+        <span className={style.child_description}>Description</span>
+        <span className={style.child_datetime}>2020-2022</span>
+      </div>
     </section>
   );
 };

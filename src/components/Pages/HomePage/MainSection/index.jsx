@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 
 import Education from "./Education";
 import Skills from "./Skills";
@@ -10,7 +11,7 @@ const MainSection = () => {
   return (
     <main className={style.main_section}>
       <div className={style.container}>
-        <div className={style.col}>
+        <div className={classNames(style.col, style.small)}>
           <Education />
           <Skills />
         </div>

@@ -3,7 +3,7 @@ import HomePage from "../components/Pages/HomePage";
 
 const routes = [
   {
-    path: "/",
+    path: "*",
     element: <HomePage />,
   },
 ];

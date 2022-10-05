@@ -6,11 +6,18 @@
     max-width: 1142px;
     padding: 0 15px 163px 15px;
     margin: 0 auto;
+    gap: 30px;
 
     .col {
       display: flex;
       flex-direction: column;
       gap: 104px;
+      flex: 1;
+      max-width: 632px;
+
+      &.small {
+        max-width: 248px;
+      }
     }
   }
 }
