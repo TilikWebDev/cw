@@ -3,6 +3,10 @@
   outline: none;
 }
 
+body {
+  min-width: 1172px;
+}
+
 html,
 #root {
   min-height: 100%;

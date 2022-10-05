@@ -1,4 +1,5 @@
 .top_section {
+  position: relative;
   height: 100%;
   max-height: 696px;
   background-color: #6140e5;
@@ -7,12 +8,24 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1142px;
-    padding: 0 15px;
+    max-width: 1172px;
+    padding: 0 30px;
     margin: 0 auto;
     height: 100%;
 
+    .grain {
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url("../../../../../public/images/grain.png");
+    }
+
     .main_info {
+      z-index: 2;
+      position: relative;
       width: 232px;
       height: 100%;
       display: flex;
@@ -53,6 +66,8 @@
     }
 
     .decription {
+      z-index: 2;
+      position: relative;
       display: flex;
       flex-direction: column;
       width: 100%;

@@ -5,6 +5,8 @@ const TopSection = () => {
   return (
     <section className={style.top_section}>
       <div className={style.container}>
+        <div className={style.grain} />
+
         <div className={style.main_info}>
           <div className={style.main_info__rotate}>
             <h2 className={style.name}>For</h2>
