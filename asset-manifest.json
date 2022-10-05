@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cw/static/css/main.dc88d6c3.css",
-    "main.js": "/cw/static/js/main.019e754c.js",
+    "main.css": "/cw/static/css/main.eebfc966.css",
+    "main.js": "/cw/static/js/main.5ea2c698.js",
     "static/media/profile.jpg": "/cw/static/media/profile.ce69e3dbd629d42f43bb.jpg",
-    "static/media/instagram.svg": "/cw/static/media/instagram.51d4f8de6fe4a92270613da6b2038f98.svg",
-    "static/media/dribble.svg": "/cw/static/media/dribble.f8d4b2b8a310d17cbdfd950e4e2f1ac8.svg",
+    "static/media/instagram.svg": "/cw/static/media/instagram.1de0bd49171693163f879a22baf39cc5.svg",
+    "static/media/dribble.svg": "/cw/static/media/dribble.2a3aeedf8f183fb07df4951fc7b81f57.svg",
     "index.html": "/cw/index.html",
-    "static/media/star.svg": "/cw/static/media/star.ad4e36b22d5444708b54.svg",
-    "main.dc88d6c3.css.map": "/cw/static/css/main.dc88d6c3.css.map",
-    "main.019e754c.js.map": "/cw/static/js/main.019e754c.js.map"
+    "static/media/star.svg": "/cw/static/media/star.b8dfd36e7669cd54ab21.svg",
+    "main.eebfc966.css.map": "/cw/static/css/main.eebfc966.css.map",
+    "main.5ea2c698.js.map": "/cw/static/js/main.5ea2c698.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc88d6c3.css",
-    "static/js/main.019e754c.js"
+    "static/css/main.eebfc966.css",
+    "static/js/main.5ea2c698.js"
   ]
 }
