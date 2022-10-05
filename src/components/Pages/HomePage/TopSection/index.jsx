@@ -9,7 +9,7 @@ const TopSection = () => {
 
         <div className={style.main_info}>
           <div className={style.main_info__rotate}>
-            <h2 className={style.name}>For</h2>
+            <h2 className={style.name}>For ❤</h2>
             {/* JOHN */}
             <h1 className={style.surname}>Mariya</h1>
             {/* SMITHSON */}
