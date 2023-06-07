@@ -1,2 +1,8 @@
-export const generateNumber = (min, max) =>
-  Math.floor(Math.random() * (max - min) + min);
+import ReactDOMServer from "react-dom/server";
+
+export function encodeSvg(reactElement) {
+  return (
+    "data:image/svg+xml," +
+    escape(ReactDOMServer.renderToStaticMarkup(reactElement))
+  );
+}

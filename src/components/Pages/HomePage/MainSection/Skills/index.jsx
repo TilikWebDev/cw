@@ -1,10 +1,18 @@
-import React from "react";
+import classNames from "classnames";
+import React, { useMemo } from "react";
+import { useTheme } from "../../../../Context/theme";
 
 import style from "./style.module.scss";
 
 const Skills = () => {
+  const { theme } = useTheme();
+
+  const themeClassName = useMemo(() => {
+    return style[theme];
+  }, [theme]);
+
   return (
-    <section className={style.skills_section}>
+    <section className={classNames(style.skills_section, themeClassName)}>
       <h4 className={style.title}>Skills</h4>
 
       <div className={style.skills_section_child}>

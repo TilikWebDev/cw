@@ -3,6 +3,32 @@
   flex-direction: column;
   gap: 40px;
 
+  &.dark,
+  &.orange {
+    .education_section_child {
+      .child_datetime {
+        color: #e94d35;
+      }
+    }
+  }
+
+  &.purple,
+  &.light {
+    .education_section_child {
+      .child_datetime {
+        color: #6140e5;
+      }
+    }
+  }
+
+  &.green {
+    .education_section_child {
+      .child_datetime {
+        color: #f48e3e;
+      }
+    }
+  }
+
   .title {
     font-size: 24px;
     line-height: 32px;
@@ -20,6 +46,7 @@
 
     * {
       font-family: "Inter", sans-serif;
+      transition: 1s;
     }
 
     .child_title {

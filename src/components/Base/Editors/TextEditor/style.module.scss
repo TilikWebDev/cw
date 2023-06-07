@@ -1,0 +1,91 @@
+.container {
+  position: relative;
+
+  &.opened {
+    z-index: 4;
+  }
+
+  .mc {
+    position: absolute;
+    z-index: 3;
+
+    width: 0;
+    height: 0;
+
+    &.fp_r {
+      .body {
+        align-items: flex-end;
+
+        .popup {
+          left: 0;
+        }
+      }
+    }
+
+    &:not(.rotate) {
+      bottom: 0;
+      right: 0;
+    }
+
+    &.rotate {
+      bottom: 0;
+      left: 0;
+      transform: rotate(90deg);
+    }
+
+    .body {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      .icon {
+        transition: 0.3s;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        img {
+          pointer-events: none;
+        }
+      }
+
+      .popup {
+        position: relative;
+        left: -15px;
+
+        input,
+        textarea {
+          width: 240px;
+          font-family: "Bai Jamjuree", sans-serif;
+          font-size: 16px;
+          padding: 8px 10px;
+          border: 1px solid #000;
+          background-color: rgb(255, 255, 255);
+          color: #000;
+          margin: 4px;
+          line-height: 20px;
+        }
+
+        textarea {
+          width: 560px;
+          resize: none;
+          height: 122px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

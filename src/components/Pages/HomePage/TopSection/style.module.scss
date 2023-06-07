@@ -2,7 +2,55 @@
   position: relative;
   height: 100%;
   max-height: 696px;
-  background-color: #6140e5;
+  transition: 1s;
+
+  &.dark {
+    background-color: #000000;
+  }
+
+  &.orange {
+    background-color: #e94d35;
+  }
+
+  &.purple {
+    background-color: #6140e5;
+  }
+
+  &.light {
+    background-color: #e9e4f9;
+
+    .container {
+      .main_info {
+        .main_info__rotate {
+          .name,
+          .surname,
+          .specific {
+            color: black;
+          }
+        }
+      }
+
+      .decription {
+        .title {
+          color: black;
+        }
+      }
+    }
+  }
+
+  &.green {
+    background-color: #17281e;
+
+    .container {
+      .main_info {
+        .main_info__rotate {
+          .specific {
+            color: #f48e3e;
+          }
+        }
+      }
+    }
+  }
 
   .container {
     display: flex;
@@ -37,30 +85,33 @@
         flex-direction: column;
         transform: rotate(-90deg);
 
-        * {
+        .name,
+        .surname,
+        .specific {
           font-family: "Bai Jamjuree", sans-serif;
           font-weight: 700;
           color: #ffffff;
           text-transform: uppercase;
           white-space: nowrap;
+          transition: 1s;
         }
 
         .name {
           line-height: 64px;
           font-size: 56px;
-          margin: 0 0 8px 0;
+          margin: 0;
         }
 
         .surname {
           font-size: 80px;
           line-height: 96px;
-          margin: 0 0 32px 0;
+          margin: 8px 0 0 0;
         }
 
         .specific {
           font-size: 24px;
           line-height: 32px;
-          margin: 0;
+          margin: 32px 0 0 0;
         }
       }
     }
@@ -82,6 +133,7 @@
         line-height: 32px;
         letter-spacing: -0.26px;
         margin: 0;
+        transition: 1s;
       }
 
       .mi_container {
@@ -102,24 +154,21 @@
             height: 100%;
             background-image: url("../../../../../public/images/profile.jpg");
 
-            &:after,
-            &::before {
-              content: "";
+            .star {
               display: block;
               position: absolute;
               width: 60px;
               height: 60px;
-              background-image: url("../../../../../public/images/star.svg");
-            }
 
-            &:before {
-              top: -30px;
-              left: -30px;
-            }
+              &.first {
+                top: -30px;
+                left: -30px;
+              }
 
-            &:after {
-              bottom: -30px;
-              right: -30px;
+              &.last {
+                bottom: -30px;
+                right: -30px;
+              }
             }
           }
         }

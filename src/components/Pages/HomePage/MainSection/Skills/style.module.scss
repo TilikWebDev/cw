@@ -3,6 +3,38 @@
   flex-direction: column;
   gap: 40px;
 
+  &.dark,
+  &.orange {
+    .skills_section_child {
+      .progress_bar {
+        .status {
+          background-color: #e94d35;
+        }
+      }
+    }
+  }
+
+  &.purple,
+  &.light {
+    .skills_section_child {
+      .progress_bar {
+        .status {
+          background-color: #6140e5;
+        }
+      }
+    }
+  }
+
+  &.green {
+    .skills_section_child {
+      .progress_bar {
+        .status {
+          background-color: #f48e3e;
+        }
+      }
+    }
+  }
+
   .title {
     font-size: 24px;
     line-height: 32px;
@@ -37,6 +69,7 @@
       background-color: #f2f2f2;
 
       .status {
+        transition: 1s;
         background-color: #6140e5;
       }
     }
